@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+  
+  <servlet>
+   <servlet-name>Login1</servlet-name>
+        <servlet-class>Login1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login1</servlet-name>
+        <url-pattern>/servlet/Login1</url-pattern>
+    </servlet-mapping>
+	
+	
+<servlet>
+   <servlet-name>Admin</servlet-name>
+        <servlet-class>Admin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/servlet/Admin</url-pattern>
+    </servlet-mapping>
+	
+	
+
+  <servlet>
+   <servlet-name>Student</servlet-name>
+        <servlet-class>Student</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Student</servlet-name>
+        <url-pattern>/servlet/Student</url-pattern>
+    </servlet-mapping>
+	
+	
+	<servlet>
+   <servlet-name>Search</servlet-name>
+        <servlet-class>Search</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/servlet/Search</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+   <servlet-name>Moderator</servlet-name>
+        <servlet-class>Moderator</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Moderator</servlet-name>
+        <url-pattern>/servlet/Moderator</url-pattern>
+    </servlet-mapping>
+
+	
+	
+	
+	<servlet>
+   <servlet-name>AddRecords</servlet-name>
+        <servlet-class>AddRecords</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddRecords</servlet-name>
+        <url-pattern>/servlet/AddRecords</url-pattern>
+    </servlet-mapping>
+
+	
+	
+	
+	<servlet>
+   <servlet-name>Registration</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/servlet/Registration</url-pattern>
+    </servlet-mapping>
+	
+	
+
+	<servlet>
+   <servlet-name>UpdateRecords</servlet-name>
+        <servlet-class>UpdateRecords</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateRecords</servlet-name>
+        <url-pattern>/servlet/UpdateRecords</url-pattern>
+    </servlet-mapping>
+	
+  
+  
+  <servlet>
+   <servlet-name>Art</servlet-name>
+        <servlet-class>Art</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Art</servlet-name>
+        <url-pattern>/servlet/Art</url-pattern>
+    </servlet-mapping>
+  
+  
+   <servlet>
+   <servlet-name>Like</servlet-name>
+        <servlet-class>Like</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Like</servlet-name>
+        <url-pattern>/servlet/Like</url-pattern>
+    </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>CommentLike</servlet-name>
+        <servlet-class>CommentLike</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CommentLike</servlet-name>
+        <url-pattern>/servlet/CommentLike</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+   <servlet-name>Comment</servlet-name>
+        <servlet-class>Comment</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Comment</servlet-name>
+        <url-pattern>/servlet/Comment</url-pattern>
+    </servlet-mapping> 
+  
+  
+  
+  <servlet>
+   <servlet-name>DisplayRecords</servlet-name>
+        <servlet-class>DisplayRecords</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DisplayRecords</servlet-name>
+        <url-pattern>/servlet/DisplayRecords</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+<servlet>
+   <servlet-name>UpdateValues</servlet-name>
+        <servlet-class>UpdateValues</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateValues</servlet-name>
+        <url-pattern>/servlet/UpdateValues</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	<servlet>
+   <servlet-name>DeleteValues</servlet-name>
+        <servlet-class>DeleteValues</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteValues</servlet-name>
+        <url-pattern>/servlet/DeleteValues</url-pattern>
+    </servlet-mapping>
+	
+
+
+
+
+<servlet>
+   <servlet-name>AddRecordsAdmin</servlet-name>
+        <servlet-class>AddRecordsAdmin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddRecordsAdmin</servlet-name>
+        <url-pattern>/servlet/AddRecordsAdmin</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+   <servlet-name>ContactUs</servlet-name>
+        <servlet-class>ContactUs</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContactUs</servlet-name>
+        <url-pattern>/servlet/ContactUs</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+   <servlet-name>AboutUs</servlet-name>
+        <servlet-class>AboutUs</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AboutUs</servlet-name>
+        <url-pattern>/servlet/AboutUs</url-pattern>
+    </servlet-mapping>
+	
+	
+	<servlet>
+   <servlet-name>Music</servlet-name>
+        <servlet-class>Music</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Music</servlet-name>
+        <url-pattern>/servlet/Music</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	<servlet>
+   <servlet-name>LikeMusic</servlet-name>
+        <servlet-class>LikeMusic</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LikeMusic</servlet-name>
+        <url-pattern>/servlet/LikeMusic</url-pattern>
+    </servlet-mapping>
+	
+	
+	<servlet>
+   <servlet-name>CommentMusic</servlet-name>
+        <servlet-class>CommentMusic</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CommentMusic</servlet-name>
+        <url-pattern>/servlet/CommentMusic</url-pattern>
+    </servlet-mapping>
+	
+  
+</web-app>
